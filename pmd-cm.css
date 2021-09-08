@@ -1,8 +1,14 @@
 #pmd-pcm * {
 	color: inherit;
     font-size: 14px;
-    font-family: Roboto,"Helvetica Neue",Arial,sans-seri;
+    font-weight: normal;
+    line-height: 1.4;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
     margin-top: 6px;
+}
+
+#pmd-pcm h3 {
+	font-size: 18px;
 }
 
 #pmd-pcm {
@@ -20,8 +26,8 @@
 	color: var(--pmd-btn-color, #003f56) !important;
 	text-align: center;
 	display: inline-block;
-	padding: 6px 10px;
-	border-radius: 6px;
+	padding: 8px 16px;
+    border-radius: 4px;
 }
 
 #pmd-pcm .pmd-pcm-logo {
