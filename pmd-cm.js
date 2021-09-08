@@ -19,7 +19,7 @@ function pcmInt() {
 	var pmdPermalink = 'https://www.protejameusdados.com.br';
 
 	for (script of scripts) {
-		if (script.src.includes('cookie.js')) {
+		if (script.src.includes('pmd-cm.js')) {
 			var pmdId = script.getAttribute('data-pmd-id');
 			if (pmdId)
 				pmdPermalink += '/r?p=' + pmdId;
